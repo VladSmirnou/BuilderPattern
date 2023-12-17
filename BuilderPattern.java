@@ -62,7 +62,7 @@ class Director {
     }
 }
 
-class HelloWorld {
+class EntryPoint {
     public static void main(String[] args) {
         Car.CarBuilder carBuilder = new Car.CarBuilder();
         Director.presetRedBMWX6(carBuilder);
